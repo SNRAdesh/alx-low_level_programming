@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	for (j = 0 ; *(s + j) != '\0' ; j++)
 	{
 		bool = 1;
-		for (k = 0 ; *(accept + j) != '\0' ; k++)
+		for (k = 0 ; *(accept + k) != '\0' ; k++)
 		{
 			if (*(s + j) == *(accept + k))
 			{
