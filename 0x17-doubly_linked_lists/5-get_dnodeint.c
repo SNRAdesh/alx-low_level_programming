@@ -2,8 +2,10 @@
 
 /**
  * get_dnodeint_at_index - Returning the nth node of a linked list.
+ *
  * @head: Pointer to the first node of a linked list.
  * @index: Node index to return.
+ *
  * Return: If found the node at the index. Otherwise NULL.
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)

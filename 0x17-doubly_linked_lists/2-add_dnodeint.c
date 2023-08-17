@@ -2,8 +2,10 @@
 
 /**
  * add_dnodeint - Adding a node to the begining of a linked list.
+ *
  * @head: Pointer to a pointer to the first node of a linked list.
  * @n: Integer value to add to a linked list node.
+ *
  * Return: Upon sucess the address of the new element, otherwise NULL.
  */
 

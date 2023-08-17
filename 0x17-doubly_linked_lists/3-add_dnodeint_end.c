@@ -2,8 +2,10 @@
 
 /**
  * add_dnodeint_end - Adding a node to the end of a doubly linked list.
+ *
  * @head: Pointer to a pointer to the first node of a linked list.
  * @n: Integer value to add to a linked list node.
+ *
  * Return: Upon sucess the address of the new element, otherwise NULL.
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
